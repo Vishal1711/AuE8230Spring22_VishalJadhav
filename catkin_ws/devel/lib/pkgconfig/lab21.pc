@@ -1,0 +1,8 @@
+prefix=/home/vishal/catkin_ws/devel
+
+Name: lab21
+Description: Description of lab21
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
