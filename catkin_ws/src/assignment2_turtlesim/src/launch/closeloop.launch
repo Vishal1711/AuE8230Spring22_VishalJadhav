@@ -2,7 +2,7 @@
 
    <node pkg = "turtlesim" type = "turtlesim_node" name= "turtlesim_node" />
 
-   <node pkg = "assignment2_turtlesim"  type = "square_openloop.py" name= "square_openloop" />
+   <node pkg = "assignment2_turtlesim"  type = "square_closeloop.py" name= "square_closeloop" />
 
 </launch>
 
