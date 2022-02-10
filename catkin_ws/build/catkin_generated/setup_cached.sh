@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/vishal/catkin_ws/build'
+export PWD='/home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/build'

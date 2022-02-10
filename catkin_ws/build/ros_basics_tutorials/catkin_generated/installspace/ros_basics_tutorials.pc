@@ -1,4 +1,4 @@
-prefix=/home/vishal/catkin_ws/install
+prefix=/home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/install
 
 Name: ros_basics_tutorials
 Description: Description of ros_basics_tutorials

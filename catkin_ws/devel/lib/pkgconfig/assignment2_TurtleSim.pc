@@ -1,0 +1,8 @@
+prefix=/home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/devel
+
+Name: assignment2_TurtleSim
+Description: Description of assignment2_TurtleSim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/vishal/catkin_ws/src/lab21
+# Install script for directory: /home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/src/lab21
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vishal/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vishal/catkin_ws/build/lab21/catkin_generated/installspace/lab21.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/build/lab21/catkin_generated/installspace/lab21.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab21/cmake" TYPE FILE FILES
-    "/home/vishal/catkin_ws/build/lab21/catkin_generated/installspace/lab21Config.cmake"
-    "/home/vishal/catkin_ws/build/lab21/catkin_generated/installspace/lab21Config-version.cmake"
+    "/home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/build/lab21/catkin_generated/installspace/lab21Config.cmake"
+    "/home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/build/lab21/catkin_generated/installspace/lab21Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab21" TYPE FILE FILES "/home/vishal/catkin_ws/src/lab21/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab21" TYPE FILE FILES "/home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/src/lab21/package.xml")
 endif()
 

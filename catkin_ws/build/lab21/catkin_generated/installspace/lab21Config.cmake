@@ -67,14 +67,14 @@ set(lab21_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(lab21_SOURCE_PREFIX /home/vishal/catkin_ws/src/lab21)
-  set(lab21_DEVEL_PREFIX /home/vishal/catkin_ws/devel)
+  set(lab21_SOURCE_PREFIX /home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/src/lab21)
+  set(lab21_DEVEL_PREFIX /home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/devel)
   set(lab21_INSTALL_PREFIX "")
   set(lab21_PREFIX ${lab21_DEVEL_PREFIX})
 else()
   set(lab21_SOURCE_PREFIX "")
   set(lab21_DEVEL_PREFIX "")
-  set(lab21_INSTALL_PREFIX /home/vishal/catkin_ws/install)
+  set(lab21_INSTALL_PREFIX /home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/install)
   set(lab21_PREFIX ${lab21_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/vishal/catkin_ws/install/lib;/home/vishal/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/install/lib;/home/vishal/git_ws/AuE8230Spring22_VishalJadhav/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
